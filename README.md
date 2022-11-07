@@ -1,4 +1,4 @@
-# ![CCG](CCGs.png) [Cognitive Computation Group](http://cogcomp.org)
+# ![CCG](figs/CCGs.png) [Cognitive Computation Group](https://cogcomp.seas.upenn.edu/)
 
 Peer-review process is noisy and many researchers have complained that 
 the reviews are more or less random.
@@ -17,12 +17,9 @@ The latest version can be downloaded [here](https://www.dropbox.com/s/iaps6dityc
 ### Companion Paper and Example Notebooks
 
 The notebook ``paper_summary.ipynb`` contains instructions to reporduce figures and tables in the companion paper,
-and the notebook ``analysis_glm.ipynb`` performs association studies via linear models.
+and the notebook ``analysis_glm.ipynb`` performs association studies via linear models. 
 
-
-We add the [Fairlearn](https://fairlearn.org) to simplify the computation of fairness metrics.
-
-## Publicatoins
+## Publications
 
 **2022**
 
