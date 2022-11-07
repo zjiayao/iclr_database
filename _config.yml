@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: ICLR Database
+description: [The Cognitive Computation Group maintains a curated database of ICLR data.]
+logo: figs/word_cloud.png
