@@ -10,6 +10,20 @@ This database tracks the latest International Conference
 on Learning Representations (ICLR) submissions/reviews/author profiles
 and conveniently packs metadata together with textual features for downstream analysis.
 
+If you use this database in your work, please consider citing the following companion paper:
+
+```
+@misc{ZZZD22,
+  title = {Investigating Fairness Disparities in Peer Review: A Language Model Enhanced Approach},
+  author = {Zhang, Jiayao and Zhang, Hongming and Deng, Zhun and Roth, Dan},
+  url = {https://arxiv.org/abs/2211.06398},
+  publisher = {arXiv},
+  year = {2022},
+}
+
+```
+
+
 #### Table of Contents  
 
 - [Getting Started](#getting-started)
@@ -149,11 +163,11 @@ to reduce DP from 0.073 to 0.070. However, note that the inclusion does not alwa
 help, as shown in the paper, it actually increase the DP for the groups based on top institutions.
 
 <p align="middle">
-  <img src="figs/dis_us_base.png" width="20%" />
-  <img src="figs/dis_us_author.png" width="20%" />
-  <img src="figs/dis_us_rev.png" width="20%" />
-  <img src="figs/dis_us_revnlp.png" width="20%" />
-  <img src="figs/dis_us_all.png" width="20%" />
+  <img src="figs/dis_us_base.png" width="18%" />
+  <img src="figs/dis_us_author.png" width="18%" />
+  <img src="figs/dis_us_rev.png" width="18%" />
+  <img src="figs/dis_us_revnlp.png" width="18%" />
+  <img src="figs/dis_us_all.png" width="18%" />
 </p>
 
 ### Review Generation
@@ -164,16 +178,16 @@ we are interested in conditional generationg of reviews
 on the tone of the review (positive (>7), negative (<5) or borderlined).
 
 <p align="middle">
-  <img src="figs/hist_sub_len.png" width="50%" />
+  <img src="figs/hist_sub_len.png" width="30%" />
 </p>
 
 We fine-tune the LED model on the submission-review pairs based on the tone of the reviews
 by minimizing the [ROGUE score](https://huggingface.co/spaces/evaluate-metric/rouge).
 Tabulated below are two random samples from the test set, where ``(+)`` denotes the positive-toned generation
 and ``(-)`` the negative generation.
-
-| Submission ID  | ``ExJ4lMbZcqa`` |
+                                                                                                                                                          | | Samples |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Submission ID**  | **``49h_IkpJtaE``** |
 | Review Sample  | ```In this paper, the authors introduce a novel audio-visual dereverberation approach. They propose a Visually-Informed Dereverberation of Audio (VIDA) model for dereverberation. The authors also create synthetic/simulated datasets and real-world data for experimentation. Finally, they show the impact of the proposed VIDA model on several speech tasks including, recognition, enhancement, and speaker verification. The results are encouraging. The main contribution of this work is the use of visual information as an auxiliary input for dereverberation. \n\n\n\n\nWhile authors suggest visual information is helpful, it isn\'t reflected in the results...``` |
 | LED Output (+) | ```This paper proposes a new task of dereverberating speech from audio-visual observations. The goal is to learn to dereverberate speech from audio-visual observations. The task is to learn to dereverberate speech from audio-visual observations. The task is to learn to dereverberate speech from audio-visual observations. The visual environment surrounding a human speaker reveals important cues about the room geometry, materials, and speaker location, all of which influence the precise reverberation effects in the audio stream. The task is to learn to dereverberate speech from audio-visual observations. The task is to learn to dereverberate speech from audio-visual observations. The task is to learn to dereverberate speech from audio-visual observations...``` |
 | LED Output (-) | ```This paper proposes a method to learn to dereverberate speech from audio-visual observations. The idea is to learn to dereverberate speech from audio-visual observations. The paper is well written and easy to follow. However, I have several concerns about the paper:\n\n1. The proposed method is not novel. The proposed method is based on the UNet encoder-decoder architecture. The UNet encoder is based on the UNet encoder architecture. The UNet encoder is based on the UNet encoder architecture. The UNet encoder is based on the UNet encoder architecture. The UNet encoder is based on the UNet encoder architecture...``` |
