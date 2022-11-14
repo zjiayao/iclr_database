@@ -40,7 +40,9 @@ is not a clearcut when the average rating is "borderlined," for example,
 between 5 to 7.  As another example, some regions consistently have
 more accepted submissions, which may of be of interest to take a closer look at.
 
-<img src="figs/accepted_total_region.png" width=50%> <img src="figs/hist_rating_decision.png" width=30%> 
+<img src="figs/accepted_total_region.png" width=50%> 
+
+<img src="figs/hist_rating_decision.png" width=30%> 
 
 Looking deeper at the relative frequencies of acceptance
 of borderline submissions across different groups, there is usually a discrepancy.
@@ -97,7 +99,7 @@ a random arXiv sample of papers from different primary categories with their ave
 that more features can be constructed based on them. For example, we can assign topic clusters (in additional to reported keywords)
 using clustering algorithms on the Specter embedding.
 
-<img src="figs/rating_sent_dec.png" width=30%> <img src="figs/tsne_specter_arxiv.png" width=30%> <img src="figs/hist_cat_complexity.png" width=30%> 
+<img src="https://raw.githubusercontent.com/zjiayao/iclr_database/master/figs/hist_rating_decision.png" width=30%> <img src="figs/tsne_specter_arxiv.png" width=30%> <img src="figs/hist_cat_complexity.png" width=30%> 
 
 
 ## Publications
