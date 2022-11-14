@@ -13,7 +13,7 @@ and conveniently packs metadata together with textual features for downstream an
 If you use this database in your work, please consider citing the following companion paper:
 
 ```
-@misc{ZZZD22,
+@misc{ZZDR22,
   title = {Investigating Fairness Disparities in Peer Review: A Language Model Enhanced Approach},
   author = {Zhang, Jiayao and Zhang, Hongming and Deng, Zhun and Roth, Dan},
   url = {https://arxiv.org/abs/2211.06398},
