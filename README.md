@@ -12,7 +12,7 @@ and conveniently packs metadata together with textual features for downstream an
 
 If you use this database in your work, please consider citing the following companion paper:
 
-```
+```bib
 @misc{ZZDR22,
   title = {Investigating Fairness Disparities in Peer Review: A Language Model Enhanced Approach},
   author = {Zhang, Jiayao and Zhang, Hongming and Deng, Zhun and Roth, Dan},
@@ -155,7 +155,7 @@ adding sentiment of reviews); (v) ``all`` (throw all features).
 
 Below we plot the disparity of score cdfs across sensitive groups (we use US author
 as an example here, more are included in the companion paper), the largest
-disparity is usually referred to as the Demographic Parity (DP, see e.g.,[Agarwal et al., 2019](https://arxiv.org/abs/1905.12843)
+disparity is usually referred to as the Demographic Parity (DP, see e.g., [Agarwal et al., 2019](https://arxiv.org/abs/1905.12843)
 and [``fairlearn`` metrics guide](https://fairlearn.org/main/user_guide/assessment/)).
 
 For this sensitive group, we note that the inclusion of review sentiments help
