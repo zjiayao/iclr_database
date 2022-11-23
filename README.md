@@ -89,7 +89,7 @@ of citation counts at the year of submission); and
 </p>
 Although at some average rating the discrepancies between two groups seem significant (say at level 0.05),
 it is possilbe that it is due to selection bias, or other confounding factors.
-Towards robust studies of the potential bias, it is beneficial to obtain more
+Towards rigorous studies of the potential bias, it is beneficial to obtain more
 covariates, especially those from the textual data themselves such as the submissions and the review texts.
 
 
@@ -178,7 +178,7 @@ we are interested in conditional generationg of reviews
 on the tone of the review (positive (>7), negative (<5) or borderlined).
 
 <p align="middle">
-  <img src="figs/hist_sub_len.png" width="30%" />
+  <img src="figs/hist_sub_len.png" width="50%" />
 </p>
 
 We fine-tune the LED model on the submission-review pairs based on the tone of the reviews
