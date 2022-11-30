@@ -177,7 +177,7 @@ in panel A we show the estimated propensity score top-30\% articles, bottom-70\%
 in panel B we observe that the distribution of between-article cosine similarity (from the SPECTER embedding) increases from before-matching (median = 0.71) to after-matching (median = 0.80); in panel C, we visulize boxplots of authors' average institution rankings and matched-pair differences in authors' average institution rankings; finally, in panel D we show the permutation distribution and the observed test statistic of the classification permutation test.
 
 <p align="middle">
-  <img src="figs/M1_diagnostic.pdf" width="50%" />
+  <img src="figs/M1_diagnostic.png" width="80%" />
 </p>
 
 We can then perform a [two-sided, exact McNemar's test](https://journal.r-project.org/archive/2010/RJ-2010-008/index.html), whose details are given in the following contigency table. 
