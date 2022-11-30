@@ -193,7 +193,7 @@ and should not be generalized to other contexts.
 |                     |          | Accepted                                | Rejected | P-value | Odds Ratio (95%-CI) |
 | Top-30% Articles | Accepted | 633                                     | 178      | 0.050   | 0.82 (0.67, 1.00)      |
 |                     | Rejected | 218                                     | 556      |         |                        |
-| Design $M_2$        |          | \multicolumn{2}{c}{Comparison Articles} |          |         |                        |
+| Design $M_2$        |          | Comparison Articles |          |         |                        |
 |                     |          | Accepted                                | Rejected |         |                        |
 | Top-20% Articles | Accepted | 443                                     | 115      | 0.149   | 0.83 (0.64, 1.07)      |
 |                     | Rejected | 139                                     | 354      |         |                        |
