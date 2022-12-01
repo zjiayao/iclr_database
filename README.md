@@ -188,9 +188,9 @@ we cannot be certain that our analysis was immune from any unmeasured confoundin
 and any interpretation of our results should be restricted to our designed matched sample
 and should not be generalized to other contexts.
 
-| Design $M_1$        |          | Comparison Articles                     |          |         |                        |
+| Design $M_1$        |          | Comparison Articles                     |          |  P-value  |  Odds Ratio (95%-CI)  |
 |---------------------|----------|-----------------------------------------|----------|---------|------------------------|
-|                     |          | Accepted                                | Rejected | P-value | Odds Ratio (95%-CI) |
+|                     |          | Accepted                                | Rejected |  |  |
 | Top-30% Articles | Accepted | 633                                     | 178      | 0.050   | 0.82 (0.67, 1.00)      |
 |                     | Rejected | 218                                     | 556      |         |                        |
 | Design $M_2$        |          | Comparison Articles |          |         |                        |
